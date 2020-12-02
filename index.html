@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap">
 </head>
 <body>
@@ -13,9 +13,7 @@
         <div class="container">
             <div class="row header-row">
                 <div class="site-inside-size">
-                    <div class="col-md-3 logo-modest">
-                        <img src="img/modest.png" alt="Modest">
-                    </div>
+                    <div class="col-md-3 logo-modest"></div>
                     <div class="col-md-6">
                         <nav class="main-menu">
                             <ul class="menu">
@@ -44,11 +42,15 @@
                 </div>
             </div>
         </div>
+    </header>
+    <main>
         <div class="container feature-image">
             <div class="row site-inside-size">
                 <div class="text-container col-md-12">
-                    <div class="row welcome-text col-md-7">WELCOME TO OUR MARKETPLACE</div>
-                    <div class="row header-text col-md-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus ..
+                    <div class="row header-text col-md-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus ...
+                    </div>
+                    <div class="row col-md-7">
+                        <h1 class="welcome-text">WELCOME TO OUR MARKETPLACE</h1>
                     </div>
                     <div class="row btns">
                         <div class="header-btns">
@@ -59,12 +61,10 @@
                 </div>
             </div>
         </div>
-    </header>
-    <main>
         <div class="container">
             <div class="row about-us">
                 <div class="site-inside-size">
-                    <div class="row2 col-md-7">
+                    <div class="row2 col-md-7 we-are-modest-main-div">
                         <div class="row2 we-are-modest">WE ARE MODEST</div>
                         <div class="row2 we-are-modest-text">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing edit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus sed molestje gravida. Crferm entum quismagna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis lacusullamcorper at.</p></div>
@@ -76,7 +76,7 @@
                             <button class="fb social-media"></button>
                             <button class="twitter social-media"></button>
                             <button class="google social-media"></button>
-                            <button class="ball social-media"></button>
+                            <button class="dribbble social-media"></button>
                             <button class="be social-media"></button>
                         </div>
                     </div>
@@ -107,12 +107,12 @@
                 </div>
             </div>
             <div class="row our-team">
-                <div class="site-inside-size">
+                <div class="site-inside-size meet-the-team-row">
                     <div>
                         <p class="meet-the-team">MEET THE TEAM.</p>
                     </div>
-                    <div>
-                        <section>
+                    <div class="meet-the-team-crew">
+                        <section id="section">
                             <article class="crew-members">
                                 <img src="img/bromley.png" alt="Bromley" class="bromley">
                                 <p class="crew-member-name">
@@ -142,30 +142,161 @@
                 </div>
             </div>
             <div class="row lovely-work">
-                <div class="site-inside-size"></div>
+                <div class="site-inside-size lovely-work-row">
+                    <div>
+                        <h1 class="lovely-work-headline">LOVELY WORK.</h1>
+                    </div>
+                    <div class="photo-gallery">
+                        <section class="photo-gallery-section">
+                            <article class="photos photo1">
+                                <img src="img/photo1.png" alt="">
+                            </article>
+                            <article class="photos photo2">
+                                <img src="img/photo2.png" alt="">
+                            </article>
+                            <article class="photos photo3">
+                                <img src="img/photo3.png" alt="">
+                            </article>
+                            <article class="photos photo4">
+                                <img src="img/photo4.png" alt="">
+                            </article>
+                            <article class="photos photo5">
+                                <img src="img/photo5.png" alt="">
+                            </article>
+                            <article class="photos photo6">
+                                <img src="img/photo6.png" alt="">
+                            </article>
+                        </section>
+                    </div>
+                    <div class="show-me-more-button">
+                        <button class="show-me-more-btn">SHOW ME MORE</button>
+                    </div>
+                </div>
             </div>
             <div class="row what-we-do">
-                <div class="site-inside-size"></div>
+                <div class="site-inside-size what-we-do-row">
+                    <div>
+                        <h1 class="what-we-do-headline">WHAT WE DO.</h1>
+                    </div>
+                    <div>
+                        <section class="what-we-do-section">
+                            <article class="things-we-do pic1">
+                                <div class="pic-1"></div>
+                                    <h2 class="what-we-do-green-pics-headline">EASY THEME SETUP</h2>
+                                    <p class="things-we-do-text">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</p>
+                            </article>
+                            <article class="things-we-do pic2">
+                                <div class="pic-2"></div>
+                                <h2 class="what-we-do-green-pics-headline">PIXEL PERFECT DESIGN</h2>
+                                <p class="things-we-do-text">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</p>
+                            </article>
+                            <article class="things-we-do pic3">
+                                <div class="pic-3"></div>
+                                <h2 class="what-we-do-green-pics-headline">RESPONSIVE DISPLAY</h2>
+                                <p class="things-we-do-text">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</p>
+                            </article>
+                            <article class="things-we-do pic4">
+                                <div class="pic-4"></div>
+                                <h2 class="what-we-do-green-pics-headline">24/7 SUPPORT</h2>
+                                <p class="things-we-do-text">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</p>
+                            </article>
+                            <article class="things-we-do pic1">
+                                <div class="pic-1"></div>
+                                <h2 class="what-we-do-green-pics-headline">EASY THEME SETUP</h2>
+                                <p class="things-we-do-text">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</p>
+                            </article>
+                            <article class="things-we-do pic2">
+                                <div class="pic-2"></div>
+                                <h2 class="what-we-do-green-pics-headline">PIXEL PERFECT DESIGN</h2>
+                                <p class="things-we-do-text">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</p>
+                            </article>
+                            <article class="things-we-do pic3">
+                                <div class="pic-3"></div>
+                                <h2 class="what-we-do-green-pics-headline">RESPONSIVE DISPLAY</h2>
+                                <p class="things-we-do-text">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</p>
+                            </article>
+                            <article class="things-we-do pic4">
+                                <div class="pic-4"></div>
+                                <h2 class="what-we-do-green-pics-headline">24/7 SUPPORT</h2>
+                                <p class="things-we-do-text">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum.</p>
+                            </article>
+                        </section>
+                    </div>
+                </div>
             </div>
             <div class="row features">
-                <div class="site-inside-size"></div>
+                <div class="site-inside-size features-row">
+                    <div class="features-header">
+                        <h1 class="features-headline">FEATURES.</h1>
+                        <section class="features-section">
+                            <article class="features-article features-pic1">
+                                <img src="img/features-pic1.png" alt="">
+                                <h2 class="features-h2">PRODUCT DESIGN: EAMES CHAIRS</h2>
+                                <p class="features-p">Eames designs are certainly iconic. Everyone of us knows at least two or three of their famous chairs. I would even risk saying that most of us dream about having a nice Eames</p>
+                            </article>
+                            <article class="features-article features-pic2">
+                                <img src="img/features-pic2.png" alt="">
+                                <h2 class="features-h2">ELEGANT AND COLORFUL LOGOS</h2>
+                                <p class="features-p">I've always found logo design to be one of the most challenging things to get right. There's so much that a logo can say abount a brand without actually saying it.</p>
+                            </article>
+                            <article class="features-article features-pic3">
+                                <img src="img/features-pic3.png" alt="">
+                                <h2 class="features-h2">A SHOWCASE OF CREATIVE</h2>
+                                <p class="features-p">It's always interesting to see another designer's take on a famous website, app or even physical product. Different designers add their own personality and style.</p>
+                            </article>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="row stay-in-touch-row"> 
+                <div class="site-inside-size">
+                    <div class="stay-in-touch">
+                        <h1 class="stay-in-touch-headline">STAY IN TOUCH.</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row map">
+                <div class="map">
+                    <img src="img/map.png" alt="">
+                </div>
+            </div>
+            <div class="row contact-information"> 
+                <div class="site-inside-size">
+                    <div class="col-md-6 contact-info">
+                        <h2 class="contact-info-headline">CONTACT INFORMATION</h2>
+                        <p class="contact-info-p">Lorem ipsum dolor sit amet, consectetur adipiscing edit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus sed molestje gravida.</p>
+                        <p class="contact-info-p2">Cras fermentum elit quis magna congue, <span class="contact-info-span">vel sodales</span>arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact-info-input">
+                            <input type="text" class="contact-info-input-name">
+                            <input type="text" class="contact-info-input-email">
+                            <input type="text" class="contact-info-input-msg">
+                        </div>
+                        <div class="contact-info-input-btn">
+                            <button class="send-msg-btn">SEND MESSAGE</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
     <footer>
         <div class="row">
-            <div class="stay-in-touch"></div>
-        </div>
-        <div class="row">
-            <div class="map">
-                <img src="img/map.png" alt="">
+            <div class="copyright">
+                <div class="site-inside-size">
+                    <div class="col-md-10 copyright-footer">
+                        <p class="copyright-text">© Copyright 2014 by PSD Booster. All rights Reserved.</p>
+                    </div>
+                    <div class="col-md-2 social-media-footer">
+                        <button class="twitter-footer"></button>
+                        <button class="fb-footer"></button>
+                        <button class="skype-footer"></button>
+                        <button class="be-footer"></button>
+                        <button class="linkedin-footer"></button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="contact-info"></div>
-        </div>
-        <div class="row">
-            <div class="copyright"></div>
         </div>
     </footer>
 </body>
