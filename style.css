@@ -131,8 +131,8 @@ input[type="text"] {
 
 .search-btn {
     position: absolute;
-    top: -10px;
-    right: 10px;
+    top: -9px;
+    right: 18px;
     background-image: url(img/search-btn.png);
     padding: 17px;
     background-color: inherit;
@@ -424,7 +424,7 @@ button {
 }
 
 .lovely-work-photos {
-    height: 60vh;
+    height: 30vh;
     flex-grow: 1;
     flex-basis: 33%;
 }
@@ -452,7 +452,7 @@ button {
 }
 
 .show-me-more-button {
-    padding: 15px 0 0 525px;
+    padding: 70px 0 0 525px;
 }
 
 
