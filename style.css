@@ -465,16 +465,16 @@ button {
     text-align: center;
 }
 
-.bromley:hover {
-    background-color: rgba(255, 0, 0, 0.445);
-}
-
 .crew-fb {
     background-image: url(img/fb.png);
     background-repeat: no-repeat;
     background-color: #3c4147;
     padding: 15px 25px;
     margin-right: 1px;
+}
+
+.crew-fb:hover {
+    background-color: #4e5a62;
 }
 
 .crew-twitter {
@@ -485,12 +485,20 @@ button {
     margin-right: 1px;
 }
 
+.crew-twitter:hover {
+    background-color: #4e5a62;
+}
+
 .crew-linkedin {
     background-image: url(img/linkedin.png);
     background-repeat: no-repeat;
     background-color: #3c4147;
     padding: 15px 25px;
     margin-right: 1px;
+}
+
+.crew-linkedin:hover {
+    background-color: #4e5a62;
 }
 
 
