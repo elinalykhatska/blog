@@ -109,22 +109,27 @@ body {
 
 
 
-
-.main-menu ul {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
+.menu {
     display: flex;
 }
 
-.main-menu li {
-    flex: 3;
+
+
+.main-menu ul {
+    /* display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex; */
+    display: flex;
 }
+
+/* .main-menu li {
+    flex: 3;
+} */
 
 .main-menu a {
     display: inline-block;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
     letter-spacing: 2px;
 
@@ -135,6 +140,8 @@ body {
     padding-right: 10px;
     font-size: 14px;
     text-transform: uppercase;
+
+    min-width: 55px;
 }
 
 .menu a {
@@ -860,7 +867,8 @@ button {
     }
 
     .menu {
-        flex-direction: column;
+        /* flex-direction: column; */
+        overflow-x: auto;
     }
 
     .main-menu li {
