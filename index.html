@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
 <body>
     <header class="header">
@@ -302,7 +303,7 @@
                     <p class="contact-info-p">Cras fermentum elit quis magna congue, <span class="contact-info-span">vel sodales</span>arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus</p>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-6 contact-info-right-hand-side-input">
                     <div class="contact-info-input">
                         <input type="text" class="col-md-6 col-sm-6 col-xs-6 contact-info-input-name">
@@ -311,7 +312,39 @@
                         <button class="send-msg-btn">SEND MESSAGE</button>
                     </div>
                 </div>
+            </div> -->
+<!-- 
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6 contact-info-right-hand-side-input">
+                    <div id="error"></div>
+                    <form id="form" action="/" method="GET">
+                        <div>
+                            <label for="Name">Name</label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div> -->
+
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6 contact-info-right-hand-side-input">
+                    <div class="subscribe-form">
+                        <form action="">
+                            <div class="email-box">
+                                <i class="fas fa-envelope"></i>
+                                <input class="tbox" type="email" name="" value="" placeholder="Enter your email">
+                                <button class="btn" type="button" name="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
 </main>
@@ -333,4 +366,5 @@
             </div>
         </div>
 </footer>
+<script src="app.js"></script>
 </body>

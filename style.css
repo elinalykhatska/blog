@@ -90,7 +90,12 @@ body {
     z-index: 10;
 }
 
-.row:after, .navigation:after, .container::after, .header-row::after, .row2::after, .footer-row-copyright::after {
+.row:after, 
+.navigation:after, 
+.container::after, 
+.header-row::after, 
+.row2::after, 
+.footer-row-copyright::after {
     content: "";
     display: flex;
     clear: both;
@@ -102,7 +107,7 @@ body {
     background-image: url(img/modest.png);
     display: flex;
     width: 250px;
-    border: inherit 2px solid;
+    /* border: inherit 2px solid; */
 }
 
 
@@ -828,6 +833,49 @@ button {
 
 
 
+.subscribe-form {
+    text-align: center;
+    color: #fff;
+}
+
+
+.email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-box i {
+    background-color: #3c4147;
+    width: 40px;
+    line-height: 40px;
+}
+
+.tbox, .btn {
+    border: none;
+    outline: none;
+}
+
+.tbox {
+    width: 0px;
+}
+
+.email-box:hover > .tbox, .tbox:focus {
+    width: 260px;
+    padding: 0 10px;
+}
+
+.btn {
+    background-color: #3c4147;
+    color: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+
 
 
 
@@ -1301,3 +1349,6 @@ button {
         width: 8,3333333%;
     }
 }
+
+
+
