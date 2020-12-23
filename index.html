@@ -14,11 +14,11 @@
         <div class="container logo-modest-container">
             <div class="row header-row">
                 <div class="col-md-12 col-sm-12 col-xs-12 header-nav">
-                    <div class="col-md-3 col-sm-2 col-xs-3 header-items">
+                    <div class="col-md-3 col-sm-2 col-xs-12 header-items">
                         <label class="logo-modest"></label>
                     </div>
                     <div class="col-md-9 col-sm-9 col-xs-12 header-items">
-                        <nav class="main-menu">
+                        <nav class="main-menu navigation-nav hidden menu">
                             <ul class="menu">
                                 <li class="li-first"><a href="#">HOME</a></li>
                                 <li><a href="#">ABOUT</a></li>
@@ -29,6 +29,11 @@
                                 <li><a href="#">CONTACT</a></li>
                             </ul>
                         </nav>
+                        <div class="nav-mobile-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                     <div class="col-md-3 col-sm-2 col-xs-12 header-items">
                         <div id="search">
@@ -118,41 +123,49 @@
                     <h2 class="headline-meet-the-team">MEET THE TEAM.</h2>
                 </div>
                 <section class="col-md-12 col-sm-12 col-xs-12 crew-members-meet-the-team-section">
-                    <div class="col-md-3 col-sm-3 col-xs-6 crew-names">
-                        <img src="img/bromley.png" alt="Bromley" class="bromley">
-                        <div class="color-overlay">
-                            <a href="" class="crew-fb"></a>
-                            <a href="" class="crew-twitter"></a>
-                            <a href="" class="crew-linkedin"></a>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="crew-names">
+                            <img src="img/bromley.png" alt="Bromley" class="bromley">
+                            <div class="color-overlay">
+                                <a href="" class="crew-fb"></a>
+                                <a href="" class="crew-twitter"></a>
+                                <a href="" class="crew-linkedin"></a>
+                            </div>
+                            <p class="crew-member-name">GLORI BROMLEY<br>CEO and Founder</p>
                         </div>
-                        <p class="crew-member-name">GLORI BROMLEY<br>CEO and Founder</p>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6 crew-names">
-                        <img src="img/torres.png" alt="Torres" class="torres">
-                        <div class="color-overlay">
-                            <a href="" class="crew-fb"></a>
-                            <a href="" class="crew-twitter"></a>
-                            <a href="" class="crew-linkedin"></a>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="crew-names">
+                            <img src="img/torres.png" alt="Torres" class="torres">
+                            <div class="color-overlay">
+                                <a href="" class="crew-fb"></a>
+                                <a href="" class="crew-twitter"></a>
+                                <a href="" class="crew-linkedin"></a>
+                            </div>
+                            <p class="crew-member-name">PAUL TORRES<br>Head of Development</p>
                         </div>
-                        <p class="crew-member-name">PAUL TORRES<br>Head of Development</p>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6 crew-names">
-                        <img src="img/gillette.png" alt="Gillette" class="gillette">
-                        <div class="color-overlay">
-                            <a href="" class="crew-fb"></a>
-                            <a href="" class="crew-twitter"></a>
-                            <a href="" class="crew-linkedin"></a>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="crew-names">
+                            <img src="img/gillette.png" alt="Gillette" class="gillette">
+                            <div class="color-overlay">
+                                <a href="" class="crew-fb"></a>
+                                <a href="" class="crew-twitter"></a>
+                                <a href="" class="crew-linkedin"></a>
+                            </div>
+                            <p class="crew-member-name">JUDITH GILLETTE<br>Graphic Designer</p>
                         </div>
-                        <p class="crew-member-name">JUDITH GILLETTE<br>Graphic Designer</p>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6 crew-names">
-                        <img src="img/reed.png" alt="Reed" class="reed">
-                        <div class="color-overlay">
-                            <a href="" class="crew-fb"></a>
-                            <a href="" class="crew-twitter"></a>
-                            <a href="" class="crew-linkedin"></a>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="crew-names">
+                            <img src="img/reed.png" alt="Reed" class="reed">
+                            <div class="color-overlay">
+                                <a href="" class="crew-fb"></a>
+                                <a href="" class="crew-twitter"></a>
+                                <a href="" class="crew-linkedin"></a>
+                            </div>
+                            <p class="crew-member-name">DELORES REED<br>Client Service Director</p>
                         </div>
-                        <p class="crew-member-name">DELORES REED<br>Client Service Director</p>
                     </div>
                     <div class="crew-names"></div>
                 </section>
@@ -170,21 +183,57 @@
                     <ul class="photo-gallery">
                         <li class="col-md-4 col-sm-4 col-xs-12 lovely-work-photos">
                             <img src="img/photo1.png" alt="" class="photos photo1">
+                            <div class="zoom">
+                                <button class="zoom-pic"></button>
+                            </div>
+                            <div class="photo-gallery-zoom">
+                                <button class="lovely-work-zoom">partnership guidlines</button>
+                            </div>
                         </li>
                             <li class="col-md-4 col-sm-4 col-xs-12 lovely-work-photos">
                             <img src="img/photo2.png" alt="" class="photos photo2">
+                            <div class="zoom">
+                                <button class="zoom-pic"></button>
+                            </div>
+                            <div class="photo-gallery-zoom">
+                                <button class="lovely-work-zoom">partnership guidlines</button>
+                            </div>
                         </li>
                             <li class="col-md-4 col-sm-4 col-xs-12 lovely-work-photos">
                             <img src="img/photo3.png" alt="" class="photos photo3">
+                            <div class="zoom">
+                                <button class="zoom-pic"></button>
+                            </div>
+                            <div class="photo-gallery-zoom">
+                                <button class="lovely-work-zoom">partnership guidlines</button>
+                            </div>
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-12 lovely-work-photos">
                             <img src="img/photo4.png" alt="" class="photos photo4">
+                            <div class="zoom">
+                                <button class="zoom-pic"></button>
+                            </div>
+                            <div class="photo-gallery-zoom">
+                                <button class="lovely-work-zoom">partnership guidlines</button>
+                            </div>
                         </li>
                             <li class="col-md-4 col-sm-4 col-xs-12 lovely-work-photos">
                             <img src="img/photo5.png" alt="" class="photos photo5">
+                            <div class="zoom">
+                                <button class="zoom-pic"></button>
+                            </div>
+                            <div class="photo-gallery-zoom">
+                                <button class="lovely-work-zoom">partnership guidlines</button>
+                            </div>
                         </li>
                             <li class="col-md-4 col-sm-4 col-xs-12 lovely-work-photos">
                             <img src="img/photo6.png" alt="" class="photos photo6">
+                            <div class="zoom">
+                                <button class="zoom-pic"></button>
+                            </div>
+                            <div class="photo-gallery-zoom">
+                                <button class="lovely-work-zoom">partnership guidlines</button>
+                            </div>
                         </li>
                     </ul>
             </div>
@@ -313,28 +362,13 @@
                     </div>
                 </div>
             </div> -->
-<!-- 
             <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-6 contact-info-right-hand-side-input">
-                    <div id="error"></div>
-                    <form id="form" action="/" method="GET">
-                        <div>
-                            <label for="Name">Name</label>
-                            <input type="text" name="name" id="name" required>
-                        </div>
-                        <div>
-                            <label for="password">Password</label>
-                            <input type="password" name="password" id="password">
-                        </div>
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>
-            </div> -->
-
-            <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-6 contact-info-right-hand-side-input">
-                    <div class="subscribe-form">
+                <div class="col-md-6 col-sm-6 col-xs-6 contact-info-right-hand-side-input modal">
+                    <div class="modal-block">
                         <form action="">
+                            <div class="btn-close-up">X</div>
+                            <h3 class="h3-modal-block">Subscribe to stay up to date with our latest news</h3>
+
                             <div class="email-box">
                                 <i class="fas fa-envelope"></i>
                                 <input class="tbox" type="email" name="" value="" placeholder="Enter your email">
@@ -344,7 +378,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </main>

@@ -1,20 +1,54 @@
-// const name = document.getElementById('name')
-// const password = document.getElementById('password')
-// const form = document.getElementById('form')
-// const errorElement = document.getElementById('error')
 
-// form.addEventListener('submit', (e) => {
-//     let messages = []
-//     if (name.value === '' || name.value == null) {
-//         messages.push('Name is required')
-//     }
 
-//     if (password.value.length <= 8) {
-//         messages.push('Password must be longer than 8 characters')
-//     }
 
-//     if (messages.length > 0) {
-//         e.preventDefault()
-//         errorElement.innerText = messages.join(', ')
-//     }
-// })
+// burger menu
+let mobileMenu = document.querySelector(".nav-mobile-menu")
+let mainMenu = document.querySelector(".navigation-nav")
+
+mobileMenu.addEventListener("click", function() {
+    mobileMenu.classList.toggle("active-menu")
+    if(mobileMenu.classList.contains("active-menu")) {
+        mainMenu.classList.add("active-menu");
+    }else{
+        mainMenu.classList.remove("active-menu");
+    }
+})
+
+
+
+
+
+// subscribe modal form
+let modal = document.querySelector(".modal");
+let closeBtn = document.querySelector(".btn-close-up")
+
+function closeModal() {
+    modal.classList.remove("show");
+    modal.classList.add("hide")
+}
+
+function openModal() {
+    modal.classList.add("show");
+    modal.classList.remove("hide");
+}
+
+
+closeBtn.addEventListener("click", closeModal)
+
+modal.addEventListener('click',function(e) {
+    if(e.target === modal) {
+        closeModal()
+    }
+});
+
+function showModalByScroll() {
+    if(window.pageYOffset > document.documentElement.scrollHeight/2) {
+        openModal()
+window.addEventListener("scroll",showModalByScroll);
+
+    }
+}
+
+window.addEventListener("scroll",showModalByScroll)
+
+
